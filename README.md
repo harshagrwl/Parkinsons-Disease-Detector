@@ -1,5 +1,5 @@
 # Parkinsons-Disease-Detector
-Detecting Parkinson's Disease using Computer Vision and Machine Learning
+Detecting Parkinson's Disease using Computer Vision and Machine Learning with 84% accuracy
 
 ## Overview
 Parkinson's Disease is detected using the image samples of Spiral Test and Wave Test. These tests are carried out by Physicians to detect if a person has Parkinson's Disease or not. If a person is diagnosed with parkinson's, he/she is not able to complete these tests in due time and does them abnormally.
@@ -22,6 +22,17 @@ After that we use Random Forest based Classifier for training.
 - Run the detector for wave test images. ```python detect_parkinsons.py --dataset dataset/wave```
 ### Note
 You can also specify the number of training trails for the program by specifying additional parameter ```--trails <no. of trials>``` with the python command. The default value of trials is set to 5.
+
+## Metrics
+### Spiral Test
+- Accuracy of 81%
+- Sensitivity of 71.67%
+- Specificity of 90.33%
+
+### Wave Test
+- Accuracy of 71%
+- Sensitivity of 67.33%
+- Specificity of 74.67%
 
 ## Contributions
 Pull Requests as well as Suggestions are welcome.
