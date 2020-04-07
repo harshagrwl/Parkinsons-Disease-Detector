@@ -1,5 +1,5 @@
 # Parkinsons-Disease-Detector
-Detecting Parkinson's Disease using Computer Vision and Machine Learning with 84% accuracy
+Detecting Parkinson's Disease using Computer Vision with 81% accuracy.
 
 ## Overview
 Parkinson's Disease is detected using the image samples of Spiral Test and Wave Test. These tests are carried out by Physicians to detect if a person has Parkinson's Disease or not. If a person is diagnosed with parkinson's, he/she is not able to complete these tests in due time and does them abnormally.
